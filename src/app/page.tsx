@@ -93,7 +93,7 @@ const Home = () => {
         {/* Summary view button */}
         <button
           className={`px-4 py-2 rounded ${
-            activeTab === "summary" ? "bg-blue-500 text-white" : "bg-gray-200"
+            activeTab === "summary" ? "bg-blue-500 hover:bg-blue-700 text-white" : "bg-gray-200 hover:bg-gray-300"
           }`}
           onClick={() => setActiveTab("summary")}
         >
@@ -102,7 +102,7 @@ const Home = () => {
         {/* Bullet point view button */}
         <button
           className={`px-4 py-2 rounded ${
-            activeTab === "bullet" ? "bg-blue-500 text-white" : "bg-gray-200"
+            activeTab === "bullet" ? "bg-blue-500 hover:bg-blue-700 text-white" : "bg-gray-200 hover:bg-gray-300"
           }`}
           onClick={() => setActiveTab("bullet")}
         >
