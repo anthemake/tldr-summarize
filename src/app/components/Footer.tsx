@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white p-4 mt-auto">
+    <footer className="bg-gray-800 text-white p-4 mt-auto rounded-sm">
       <div className="container mx-auto text-center">
         <p>&copy; 2024 Anthemake</p>
         <Link href="/" className="underline px-2">
